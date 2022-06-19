@@ -1,0 +1,178 @@
+*{transition: all 0.5s ease-in-out;}
+
+.navMain{
+    position: sticky;
+    height: 7vh;
+    background: rgba(0, 0, 0, 0.356);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.navTop{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.navLi{
+    display: flex;
+    padding-left: 50px;
+    font-size: large;
+}
+
+.downBut{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    background-color: rgb(116, 114, 114);
+    border-radius: 50%;
+    margin-top: 80vh;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bxd{
+    display: flex;
+    height: 20px;
+    width: 20px;
+    transform: rotate(45deg);
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bxu{
+    display: flex;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(116, 114, 114);
+}
+
+.bxu:hover{
+    transform: translate(-5px, -5px);
+
+}
+
+.wrap{
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    display: grid;
+    grid-template-columns: 30% 20% 30%;
+    grid-template-rows: 25vh 25vh 25vh;
+    grid-gap: 3%;
+    margin-left: 15%;
+    grid-template-areas: 
+            "left1 top1 top1" 
+            "left1 left2 top2" 
+            "left1 left2 top3";
+}
+
+.box{
+    background-color: rgba(0, 0, 0, 0.336);
+    border-radius: 30px;
+}
+
+.a{
+    grid-area: left1;
+}
+
+.boxBut{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: rgba(112, 112, 112, 0.384);
+    margin-top: 160%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid rgba(255, 255, 255, 0.623);
+}
+
+.a:hover + boxBut{
+    opacity: 100%;
+}
+
+
+.b{
+    grid-area: left2;
+    background-image: url(./assest/arcbw.jpg);
+    background-position: center;
+    background-size: 150%;
+}
+
+.b:hover{
+    background-image: url(./assest/arc.jpg);
+    background-position: center;
+    background-size: 160%;
+}
+
+.c{
+    grid-area: top1;
+    background-image: url(./assest/landbw.jpg);
+    background-position: center;
+    background-size: 100%;
+}
+
+.c:hover{
+    background-image: url(./assest/land..jpg);
+    background-position: center;
+    background-size: 110%;
+}
+
+.d{
+    grid-area: top2;
+    background-image: url(./assest/foodbw.jpg);
+    background-position: center;
+    background-size: 100%;
+}
+
+.d:hover{
+    background-image: url(./assest/food.jpg);
+    background-position: center;
+    background-size: 110%;
+}
+
+.e{
+    grid-area: top3;
+    background-image: url(./assest/mmbw.jpg);
+    background-position: center;
+    background-size: 100%;
+}
+
+.e:hover{
+    background-image: url(./assest/mm.jpg);
+    background-position: center;
+    background-size: 110%;
+}
+.box:hover{
+    border: 2px solid rgb(33, 147, 253);
+}
+
+.boxBut{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: rgba(112, 112, 112, 0.384);
+    margin-top: 160%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid rgba(255, 255, 255, 0.623);
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.dpagebut{
+    text-decoration: none;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ .ahr{
+     color: rgba(127, 255, 212, 0);
+ }
